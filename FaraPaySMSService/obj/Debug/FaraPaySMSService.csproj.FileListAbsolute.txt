@@ -1,0 +1,11 @@
+E:\Git\FaraPaySMSService\FaraPaySMSService\bin\Debug\FaraPaySMSService.exe.config
+E:\Git\FaraPaySMSService\FaraPaySMSService\obj\Debug\FaraPaySMSService.csprojResolveAssemblyReference.cache
+E:\Git\FaraPaySMSService\FaraPaySMSService\obj\Debug\FaraPaySMSService.ProjectInstaller.resources
+E:\Git\FaraPaySMSService\FaraPaySMSService\obj\Debug\FaraPaySMSService.csproj.GenerateResource.Cache
+E:\Git\FaraPaySMSService\FaraPaySMSService\bin\Debug\FaraPaySMSService.exe
+E:\Git\FaraPaySMSService\FaraPaySMSService\bin\Debug\FaraPaySMSService.pdb
+E:\Git\FaraPaySMSService\FaraPaySMSService\bin\Debug\log4net.dll
+E:\Git\FaraPaySMSService\FaraPaySMSService\bin\Debug\Newtonsoft.Json.dll
+E:\Git\FaraPaySMSService\FaraPaySMSService\bin\Debug\log4net.xml
+E:\Git\FaraPaySMSService\FaraPaySMSService\obj\Debug\FaraPaySMSService.exe
+E:\Git\FaraPaySMSService\FaraPaySMSService\obj\Debug\FaraPaySMSService.pdb

@@ -1,0 +1,334 @@
+03/07/2018 02:52:02 PM [10] INFO  Logger  - ConnectionString: Persist Security Info=False;User ID=sa;Password=Smsc408;Initial Catalog=FaraSM;Data Source=192.168.75.35;pooling=true;Min Pool Size=2;Max Pool Size=10;Application Name=FaraSM EmailPush, PushThreads: 1
+03/07/2018 02:52:02 PM [10] INFO  Logger  - Fetching SMSProviderCredentials. Url: https://restapi.smscountry.com/v0.1/Accounts/7nZIXc5752aUeST8WATv/SMSes/, AuthKey: 7nZIXc5752aUeST8WATv, AuthToken: UAbIyRUIdwB7wDzu6gdCAe4SwSXFbzDBL2fOBA4N
+03/07/2018 02:52:02 PM [10] INFO  Logger  - Starting Application
+03/07/2018 02:52:02 PM [Poller] INFO  Logger  - Started
+03/07/2018 02:52:02 PM [StatusUpdate] INFO  Logger  - Started
+03/07/2018 02:52:02 PM [Push_1] INFO  Logger  - Started
+03/07/2018 02:52:04 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "0C240C460C320C410C170C41002000540065007300740069006E0067",
+  "Number": "919966359584",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 02:52:06 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 936, IsSuccessfullySent: True
+03/07/2018 02:53:38 PM [9] INFO  Logger  - ConnectionString: Persist Security Info=False;User ID=sa;Password=Smsc408;Initial Catalog=FaraSM;Data Source=192.168.75.35;pooling=true;Min Pool Size=2;Max Pool Size=10;Application Name=FaraSM EmailPush, PushThreads: 1
+03/07/2018 02:53:38 PM [9] INFO  Logger  - Fetching SMSProviderCredentials. Url: https://restapi.smscountry.com/v0.1/Accounts/7nZIXc5752aUeST8WATv/SMSes/, AuthKey: 7nZIXc5752aUeST8WATv, AuthToken: UAbIyRUIdwB7wDzu6gdCAe4SwSXFbzDBL2fOBA4N
+03/07/2018 02:53:38 PM [9] INFO  Logger  - Starting Application
+03/07/2018 02:53:38 PM [Poller] INFO  Logger  - Started
+03/07/2018 02:53:38 PM [StatusUpdate] INFO  Logger  - Started
+03/07/2018 02:53:38 PM [Push_1] INFO  Logger  - Started
+03/07/2018 02:53:40 PM [Push_1] ERROR Logger  - System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s, NumberStyles style)
+   at FaraPaySMSService.ApplicationController.ConvertHexa(String asdf) in e:\Git\FaraPaySMSService\FaraPaySMSService\ApplicationController.cs:line 416
+   at FaraPaySMSService.ApplicationController.Push() in e:\Git\FaraPaySMSService\FaraPaySMSService\ApplicationController.cs:line 156
+03/07/2018 02:53:50 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "Your OTP is : 153192",
+  "Number": "919989452989",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 02:53:52 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 938, IsSuccessfullySent: True
+03/07/2018 02:54:29 PM [9] INFO  Logger  - ConnectionString: Persist Security Info=False;User ID=sa;Password=Smsc408;Initial Catalog=FaraSM;Data Source=192.168.75.35;pooling=true;Min Pool Size=2;Max Pool Size=10;Application Name=FaraSM EmailPush, PushThreads: 1
+03/07/2018 02:54:29 PM [9] INFO  Logger  - Fetching SMSProviderCredentials. Url: https://restapi.smscountry.com/v0.1/Accounts/7nZIXc5752aUeST8WATv/SMSes/, AuthKey: 7nZIXc5752aUeST8WATv, AuthToken: UAbIyRUIdwB7wDzu6gdCAe4SwSXFbzDBL2fOBA4N
+03/07/2018 02:54:29 PM [9] INFO  Logger  - Starting Application
+03/07/2018 02:54:29 PM [Poller] INFO  Logger  - Started
+03/07/2018 02:54:29 PM [StatusUpdate] INFO  Logger  - Started
+03/07/2018 02:54:29 PM [Push_1] INFO  Logger  - Started
+03/07/2018 02:56:35 PM [9] INFO  Logger  - ConnectionString: Persist Security Info=False;User ID=sa;Password=Smsc408;Initial Catalog=FaraSM;Data Source=192.168.75.35;pooling=true;Min Pool Size=2;Max Pool Size=10;Application Name=FaraSM EmailPush, PushThreads: 1
+03/07/2018 02:56:35 PM [9] INFO  Logger  - Fetching SMSProviderCredentials. Url: https://restapi.smscountry.com/v0.1/Accounts/7nZIXc5752aUeST8WATv/SMSes/, AuthKey: 7nZIXc5752aUeST8WATv, AuthToken: UAbIyRUIdwB7wDzu6gdCAe4SwSXFbzDBL2fOBA4N
+03/07/2018 02:56:35 PM [9] INFO  Logger  - Starting Application
+03/07/2018 02:56:35 PM [Poller] INFO  Logger  - Started
+03/07/2018 02:56:35 PM [StatusUpdate] INFO  Logger  - Started
+03/07/2018 02:56:35 PM [Push_1] INFO  Logger  - Started
+03/07/2018 02:56:46 PM [Push_1] ERROR Logger  - System.ArgumentException: Procedure call or argument is not valid.
+   at Microsoft.VisualBasic.Strings.Chr(Int32 CharCode)
+   at FaraPaySMSService.ApplicationController.ConvertHexa(String asdf) in e:\Git\FaraPaySMSService\FaraPaySMSService\ApplicationController.cs:line 418
+   at FaraPaySMSService.ApplicationController.Push() in e:\Git\FaraPaySMSService\FaraPaySMSService\ApplicationController.cs:line 156
+03/07/2018 03:04:13 PM [10] INFO  Logger  - ConnectionString: Persist Security Info=False;User ID=sa;Password=Smsc408;Initial Catalog=FaraSM;Data Source=192.168.75.35;pooling=true;Min Pool Size=2;Max Pool Size=10;Application Name=FaraSM EmailPush, PushThreads: 1
+03/07/2018 03:04:13 PM [10] INFO  Logger  - Fetching SMSProviderCredentials. Url: https://restapi.smscountry.com/v0.1/Accounts/7nZIXc5752aUeST8WATv/SMSes/, AuthKey: 7nZIXc5752aUeST8WATv, AuthToken: UAbIyRUIdwB7wDzu6gdCAe4SwSXFbzDBL2fOBA4N
+03/07/2018 03:04:13 PM [10] INFO  Logger  - Starting Application
+03/07/2018 03:04:13 PM [Poller] INFO  Logger  - Started
+03/07/2018 03:04:13 PM [StatusUpdate] INFO  Logger  - Started
+03/07/2018 03:04:13 PM [Push_1] INFO  Logger  - Started
+03/07/2018 03:08:54 PM [10] INFO  Logger  - ConnectionString: Persist Security Info=False;User ID=sa;Password=Smsc408;Initial Catalog=FaraSM;Data Source=192.168.75.35;pooling=true;Min Pool Size=2;Max Pool Size=10;Application Name=FaraSM EmailPush, PushThreads: 1
+03/07/2018 03:08:54 PM [10] INFO  Logger  - Fetching SMSProviderCredentials. Url: https://restapi.smscountry.com/v0.1/Accounts/7nZIXc5752aUeST8WATv/SMSes/, AuthKey: 7nZIXc5752aUeST8WATv, AuthToken: UAbIyRUIdwB7wDzu6gdCAe4SwSXFbzDBL2fOBA4N
+03/07/2018 03:08:54 PM [10] INFO  Logger  - Starting Application
+03/07/2018 03:08:54 PM [Poller] INFO  Logger  - Started
+03/07/2018 03:08:54 PM [StatusUpdate] INFO  Logger  - Started
+03/07/2018 03:08:54 PM [Push_1] INFO  Logger  - Started
+03/07/2018 03:09:26 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "C4C6C2C1C7C10004050304090E07",
+  "Number": "919966359584",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 03:09:28 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 941, IsSuccessfullySent: True
+03/07/2018 03:14:53 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "Your OTP is : 294237",
+  "Number": "919989452989",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 03:14:54 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 942, IsSuccessfullySent: True
+03/07/2018 03:15:33 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "Your OTP is : 515701",
+  "Number": "919989452989",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 03:15:34 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 943, IsSuccessfullySent: True
+03/07/2018 03:20:09 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "We are glad to inform you that your school account has been approved and activated by Farapay. Please Login to Explore the payment features and start collecting fees online now.",
+  "Number": "91??????????",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 03:20:11 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 944, IsSuccessfullySent: True
+03/07/2018 03:20:33 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "Your OTP is : 417435",
+  "Number": "919989452989",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 03:20:35 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 945, IsSuccessfullySent: True
+03/07/2018 03:22:39 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "Your OTP is : 806213",
+  "Number": "918639504117",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 03:22:41 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 946, IsSuccessfullySent: True
+03/07/2018 03:26:33 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "Your OTP is : 663291",
+  "Number": "918639504117",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 03:26:35 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 947, IsSuccessfullySent: True
+03/07/2018 03:33:44 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "Your OTP is : 166938",
+  "Number": "919989452989",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 03:33:45 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 948, IsSuccessfullySent: True
+03/07/2018 03:36:34 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "Your OTP is : 316554",
+  "Number": "919989452989",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 03:36:35 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 949, IsSuccessfullySent: True
+03/07/2018 03:37:04 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "Your OTP is : 693332",
+  "Number": "919989452989",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 03:37:05 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 950, IsSuccessfullySent: True
+03/07/2018 03:42:06 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "Your OTP is : 631970",
+  "Number": "919989452989",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 03:42:08 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 951, IsSuccessfullySent: True
+03/07/2018 03:45:16 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "Your OTP is : 797785",
+  "Number": "912010020101",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 03:45:18 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 952, IsSuccessfullySent: True
+03/07/2018 03:48:50 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "We are glad to inform you that your school account has been approved and activated by Farapay. Please Login to Explore the payment features and start collecting fees online now.",
+  "Number": "912010020101",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 03:48:52 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 953, IsSuccessfullySent: True
+03/07/2018 04:07:57 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "Your OTP is : 668259",
+  "Number": "919160008473",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 04:07:58 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 954, IsSuccessfullySent: True
+03/07/2018 04:09:27 PM [9] INFO  Logger  - ConnectionString: Persist Security Info=False;User ID=sa;Password=Smsc408;Initial Catalog=FaraSM;Data Source=192.168.75.35;pooling=true;Min Pool Size=2;Max Pool Size=10;Application Name=FaraSM EmailPush, PushThreads: 1
+03/07/2018 04:09:27 PM [9] INFO  Logger  - Fetching SMSProviderCredentials. Url: https://restapi.smscountry.com/v0.1/Accounts/7nZIXc5752aUeST8WATv/SMSes/, AuthKey: 7nZIXc5752aUeST8WATv, AuthToken: UAbIyRUIdwB7wDzu6gdCAe4SwSXFbzDBL2fOBA4N
+03/07/2018 04:09:27 PM [9] INFO  Logger  - Starting Application
+03/07/2018 04:09:27 PM [Poller] INFO  Logger  - Started
+03/07/2018 04:09:27 PM [StatusUpdate] INFO  Logger  - Started
+03/07/2018 04:09:27 PM [Push_1] INFO  Logger  - Started
+03/07/2018 04:09:57 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "\f$\fF\f2\fA\f\u0017\fA\u0000 \u0000T\u0000e\u0000s\u0000t\u0000i\u0000n\u0000g",
+  "Number": "919966359584",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 04:09:59 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 955, IsSuccessfullySent: True
+03/07/2018 04:16:24 PM [9] INFO  Logger  - ConnectionString: Persist Security Info=False;User ID=sa;Password=Smsc408;Initial Catalog=FaraSM;Data Source=192.168.75.35;pooling=true;Min Pool Size=2;Max Pool Size=10;Application Name=FaraSM EmailPush, PushThreads: 1
+03/07/2018 04:16:24 PM [9] INFO  Logger  - Fetching SMSProviderCredentials. Url: https://restapi.smscountry.com/v0.1/Accounts/7nZIXc5752aUeST8WATv/SMSes/, AuthKey: 7nZIXc5752aUeST8WATv, AuthToken: UAbIyRUIdwB7wDzu6gdCAe4SwSXFbzDBL2fOBA4N
+03/07/2018 04:16:24 PM [9] INFO  Logger  - Starting Application
+03/07/2018 04:16:24 PM [StatusUpdate] INFO  Logger  - Started
+03/07/2018 04:16:24 PM [Poller] INFO  Logger  - Started
+03/07/2018 04:16:24 PM [Push_1] INFO  Logger  - Started
+03/07/2018 04:16:38 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "0C240C460C320C410C170C41002000540065007300740069006E0067",
+  "Number": "919966359584",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 04:16:40 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 956, IsSuccessfullySent: True
+03/07/2018 04:17:58 PM [9] INFO  Logger  - ConnectionString: Persist Security Info=False;User ID=sa;Password=Smsc408;Initial Catalog=FaraSM;Data Source=192.168.75.35;pooling=true;Min Pool Size=2;Max Pool Size=10;Application Name=FaraSM EmailPush, PushThreads: 1
+03/07/2018 04:17:58 PM [9] INFO  Logger  - Fetching SMSProviderCredentials. Url: https://restapi.smscountry.com/v0.1/Accounts/7nZIXc5752aUeST8WATv/SMSes/, AuthKey: 7nZIXc5752aUeST8WATv, AuthToken: UAbIyRUIdwB7wDzu6gdCAe4SwSXFbzDBL2fOBA4N
+03/07/2018 04:17:58 PM [9] INFO  Logger  - Starting Application
+03/07/2018 04:17:58 PM [Poller] INFO  Logger  - Started
+03/07/2018 04:17:58 PM [StatusUpdate] INFO  Logger  - Started
+03/07/2018 04:17:58 PM [Push_1] INFO  Logger  - Started
+03/07/2018 04:18:04 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "?????? Testing",
+  "Number": "919966359584",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 04:18:06 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 957, IsSuccessfullySent: True
+03/07/2018 04:20:37 PM [9] INFO  Logger  - ConnectionString: Persist Security Info=False;User ID=sa;Password=Smsc408;Initial Catalog=FaraSM;Data Source=192.168.75.35;pooling=true;Min Pool Size=2;Max Pool Size=10;Application Name=FaraSM EmailPush, PushThreads: 1
+03/07/2018 04:20:37 PM [9] INFO  Logger  - Fetching SMSProviderCredentials. Url: https://restapi.smscountry.com/v0.1/Accounts/7nZIXc5752aUeST8WATv/SMSes/, AuthKey: 7nZIXc5752aUeST8WATv, AuthToken: UAbIyRUIdwB7wDzu6gdCAe4SwSXFbzDBL2fOBA4N
+03/07/2018 04:20:37 PM [9] INFO  Logger  - Starting Application
+03/07/2018 04:20:37 PM [Poller] INFO  Logger  - Started
+03/07/2018 04:20:37 PM [StatusUpdate] INFO  Logger  - Started
+03/07/2018 04:20:37 PM [Push_1] INFO  Logger  - Started
+03/07/2018 04:20:49 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "?????? Testing",
+  "Number": "919966359584",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 04:20:51 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 958, IsSuccessfullySent: True
+03/07/2018 04:20:58 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "?????? Testing",
+  "Number": "919966359584",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPay"
+}
+03/07/2018 04:20:59 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 959, IsSuccessfullySent: True
+03/07/2018 06:27:19 PM [10] INFO  Logger  - ConnectionString: Persist Security Info=False;User ID=sa;Password=Smsc408;Initial Catalog=FaraSM;Data Source=192.168.75.35;pooling=true;Min Pool Size=2;Max Pool Size=10;Application Name=FaraSM EmailPush, PushThreads: 1
+03/07/2018 06:27:19 PM [10] INFO  Logger  - Fetching SMSProviderCredentials. Url: https://restapi.smscountry.com/v0.1/Accounts/7nZIXc5752aUeST8WATv/SMSes/, AuthKey: 7nZIXc5752aUeST8WATv, AuthToken: UAbIyRUIdwB7wDzu6gdCAe4SwSXFbzDBL2fOBA4N
+03/07/2018 06:27:19 PM [10] INFO  Logger  - Starting Application
+03/07/2018 06:27:19 PM [Poller] INFO  Logger  - Started
+03/07/2018 06:27:19 PM [StatusUpdate] INFO  Logger  - Started
+03/07/2018 06:27:19 PM [Push_1] INFO  Logger  - Started
+03/07/2018 06:27:21 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "?????? Testing2",
+  "Number": "919966359584",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPayyyy"
+}
+03/07/2018 06:27:21 PM [Push_1] ERROR Logger  - System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FaraPaySMSService.ApplicationController.Push() in e:\Git\FaraPaySMSService\FaraPaySMSService\ApplicationController.cs:line 178
+03/07/2018 06:27:57 PM [8] INFO  Logger  - ConnectionString: Persist Security Info=False;User ID=sa;Password=Smsc408;Initial Catalog=FaraSM;Data Source=192.168.75.35;pooling=true;Min Pool Size=2;Max Pool Size=10;Application Name=FaraSM EmailPush, PushThreads: 1
+03/07/2018 06:27:57 PM [8] INFO  Logger  - Fetching SMSProviderCredentials. Url: https://restapi.smscountry.com/v0.1/Accounts/7nZIXc5752aUeST8WATv/SMSes/, AuthKey: 7nZIXc5752aUeST8WATv, AuthToken: UAbIyRUIdwB7wDzu6gdCAe4SwSXFbzDBL2fOBA4N
+03/07/2018 06:27:57 PM [8] INFO  Logger  - Starting Application
+03/07/2018 06:27:57 PM [Poller] INFO  Logger  - Started
+03/07/2018 06:27:57 PM [StatusUpdate] INFO  Logger  - Started
+03/07/2018 06:27:59 PM [Push_1] INFO  Logger  - Started
+03/07/2018 06:28:15 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "?????? Testing2",
+  "Number": "919966359584",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPayyyy"
+}
+03/07/2018 06:28:47 PM [Push_1] ERROR Logger  - System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FaraPaySMSService.ApplicationController.Push() in e:\Git\FaraPaySMSService\FaraPaySMSService\ApplicationController.cs:line 178
+03/07/2018 06:30:41 PM [9] INFO  Logger  - ConnectionString: Persist Security Info=False;User ID=sa;Password=Smsc408;Initial Catalog=FaraSM;Data Source=192.168.75.35;pooling=true;Min Pool Size=2;Max Pool Size=10;Application Name=FaraSM EmailPush, PushThreads: 1
+03/07/2018 06:30:41 PM [9] INFO  Logger  - Fetching SMSProviderCredentials. Url: https://restapi.smscountry.com/v0.1/Accounts/7nZIXc5752aUeST8WATv/SMSes/, AuthKey: 7nZIXc5752aUeST8WATv, AuthToken: UAbIyRUIdwB7wDzu6gdCAe4SwSXFbzDBL2fOBA4N
+03/07/2018 06:30:41 PM [9] INFO  Logger  - Starting Application
+03/07/2018 06:30:41 PM [Poller] INFO  Logger  - Started
+03/07/2018 06:30:41 PM [StatusUpdate] INFO  Logger  - Started
+03/07/2018 06:30:43 PM [Push_1] INFO  Logger  - Started
+03/07/2018 06:30:45 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "?????? Testing2",
+  "Number": "919966359584",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPayyyy"
+}
+03/07/2018 06:30:45 PM [Push_1] ERROR Logger  - System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FaraPaySMSService.ApplicationController.Push() in e:\Git\FaraPaySMSService\FaraPaySMSService\ApplicationController.cs:line 179
+03/07/2018 06:30:45 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 987, IsSuccessfullySent: False
+03/07/2018 06:31:03 PM [9] INFO  Logger  - Stopping Application
+03/07/2018 06:31:03 PM [9] INFO  Logger  - Poll Thread Not Stopped Yet
+03/07/2018 06:31:03 PM [Poller] INFO  Logger  - Exit
+03/07/2018 06:31:03 PM [StatusUpdate] INFO  Logger  - Exit
+03/07/2018 06:31:05 PM [Push_1] INFO  Logger  - Exit
+03/07/2018 06:31:30 PM [8] INFO  Logger  - ConnectionString: Persist Security Info=False;User ID=sa;Password=Smsc408;Initial Catalog=FaraSM;Data Source=192.168.75.35;pooling=true;Min Pool Size=2;Max Pool Size=10;Application Name=FaraSM EmailPush, PushThreads: 1
+03/07/2018 06:31:30 PM [8] INFO  Logger  - Fetching SMSProviderCredentials. Url: https://restapi.smscountry.com/v0.1/Accounts/7nZIXc5752aUeST8WATv/SMSes/, AuthKey: 7nZIXc5752aUeST8WATv, AuthToken: UAbIyRUIdwB7wDzu6gdCAe4SwSXFbzDBL2fOBA4N
+03/07/2018 06:31:30 PM [8] INFO  Logger  - Starting Application
+03/07/2018 06:31:30 PM [Poller] INFO  Logger  - Started
+03/07/2018 06:31:30 PM [StatusUpdate] INFO  Logger  - Started
+03/07/2018 06:31:30 PM [Push_1] INFO  Logger  - Started
+03/07/2018 06:31:32 PM [Push_1] INFO  Logger  - PostData{
+  "Text": "?????? Testing2",
+  "Number": "919966359584",
+  "DRNotifyUrl": "",
+  "DRNotifyHttpMethod": "POST",
+  "Tool": "API",
+  "SenderId": "FarPayyyy"
+}
+03/07/2018 06:32:11 PM [Push_1] ERROR Logger  - System.Net.WebException: The request was aborted: Could not create SSL/TLS secure channel.
+   at System.Net.HttpWebRequest.GetResponse()
+   at FaraPaySMSService.ApplicationController.Push() in e:\Git\FaraPaySMSService\FaraPaySMSService\ApplicationController.cs:line 179
+03/07/2018 06:32:13 PM [StatusUpdate] INFO  Logger  - Updating Status. SMS: 988, IsSuccessfullySent: False
